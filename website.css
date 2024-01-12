@@ -2,10 +2,11 @@
     margin: 0;
     border: 0;
     padding: 0;
+    background: linear-gradient(#ea7738, #ecdc75);
+    background-attachment: fixed;
 }
 
 body {
-    background: linear-gradient(#ea7738, #ecdc75);
     margin: 2%;
     border: 2%;
     padding: 2%;
