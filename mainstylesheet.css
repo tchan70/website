@@ -5,20 +5,26 @@
     background: linear-gradient(#40cbf9,#2b45ba);
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif; 
-    font-size: 32px;
 }
-body{
-    
+.heading{
+    font-size: 36px;
+
 }
 .flex-container{
     display: flex;
     background-color:#c0efff;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.flex-container > div {
+.flex-container > div{
     background-color: #78b3c7;
     margin: 5px;
     padding: 10px;
     font-size: 18px;
+}
+.flex-container img{
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
 }
